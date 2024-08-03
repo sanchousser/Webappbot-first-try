@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-color: #6a0dad; /* Purple background */
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
