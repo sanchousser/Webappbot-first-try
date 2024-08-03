@@ -24,3 +24,35 @@ h1 {
     font-size: 1.5em;
     margin-top: 10px;
 }
+
+/* Styles for the user-score section */
+.user-score-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: "Calistoga", serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Ensure the image within user-score-section is twice the size of a letter */
+.user-score-section img {
+    width: 2em;
+    height: 2em;
+    margin-left: 5px; /* Space between number and image */
+}
+
+/* Styles for the main image */
+img#user-enemy {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+img#user-enemy:hover {
+    transform: scale(1.1);
+}
